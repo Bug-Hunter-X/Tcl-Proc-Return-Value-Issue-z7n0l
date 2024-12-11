@@ -1,0 +1,1 @@
+proc goodproc {x} { puts "$x"; return 1 } if {[goodproc 1] == 1} { puts "Procedure returned 1 as expected" }
